@@ -406,7 +406,7 @@ a {
   flex-basis: 23%;
   padding-top: 38%;
   position: relative;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("Project 1-img/Carrot.jpg");
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("img/Carrot.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,19 +427,19 @@ a {
   font-size: 17px;
 }
 .main-content .story-gallery .story-2 {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("Project 1-img/flower.jpg");
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("img/flower.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .main-content .story-gallery .story-3 {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("Project 1-img/Citrus.jpg");
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("img/Citrus.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .main-content .story-gallery .story-4 {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("Project 1-img/plum.jpg");
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.417)), url("img/plum.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
