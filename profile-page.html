@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile-Aurora</title>
+        <link rel="icon" href="Project 1-img/clover.png">
+        <link rel="stylesheet" href="Project 1-CSS.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="logo-block">
+                            <img src="Project 1-img/letter-a.png">
+                            <p>urora</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="left-icon">
+                    <i class='bx bx-bell'></i>
+                    <i class='bx bx-envelope'></i>
+                    <i class='bx bxs-videos'></i>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="Project 1-img/profile-pic.jpg">
+                </div>
+            </div>
+
+            <div class="settings-menu">
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+                <div class="menu-inner">
+                    <div class="user-profile sett">
+                        <a href="Profile FB-Project 1.html">
+                            <img src="Project 1-img/profile-pic.jpg">
+                        </a>
+                        <div>
+                            <p>Aurora RB</p>
+                            <a href="Profile FB-Project 1.html">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="setting-links">
+                        <img class="setting-icons" src="Project 1-img/setting.png">
+                        <a href="#">Settings & Privacy
+                            <img src="Project 1-img/next.png" width="20px">
+                        </a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img class="setting-icons" src="Project 1-img/information.png">
+                        <a href="#">Help & Support
+                            <img src="Project 1-img/next.png" width="20px">
+                        </a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img class="setting-icons" src="Project 1-img/moon.png">
+                        <a href="#">Display & Accessability
+                            <img src="Project 1-img/next.png" width="20px">
+                        </a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img class="setting-icons" src="Project 1-img/comment.png">
+                        <a href="#">Give feedback</a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img class="setting-icons" src="Project 1-img/logout.png">
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="profile-container">
+            <img class="cover-img" src="Project 1-img/cover.png">
+            <div class="profile-details">
+                <div class="pd-left">
+                    <div class="pd-row">
+                        <img class="pd-img" src="Project 1-img/profile-pic.jpg">
+                        <div>
+                            <h1>Aurora</h3>
+                            <p>77 Friends</p>
+                            <img src="Project 1-img/aranakula.png">
+                            <img src="Project 1-img/arakara.png">
+                            <img src="Project 1-img/arakunti.png">
+                            <img src="Project 1-img/arapacati.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pd-right">
+                    <button class="friend" type="button">
+                        <i class="ri-user-add-fill"></i>
+                        Add friend
+                    </button>
+                    <button class="mess" type="button">
+                        <i class="ri-messenger-fill"></i>
+                        Message
+                    </button>
+                    <a href="#">
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="profile-info">
+                <div class="info-col">
+                    <div class="profile-intro">
+                        <h3>Intro</h3>
+                        <p class="intro-text">Raiden Bosenmori Mei</p>
+
+                        <ul>
+                            <li>
+                                <i class='bx bxs-graduation'></i>
+                                <p>Studied at Ho Chi Minh City University of Technology</p>
+                            </li>
+                            <li>
+                                <i class='bx bxs-home'></i>
+                                <p>Lives in Ho Chi Minh City, Vietnam</p>
+                            </li>
+                        </ul>
+
+                        <div class="collection">
+                            <div>
+                                <img src="Project 1-img/col-1.jpg">
+                                <p>Blue</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/col-2.jpg">
+                                <p>Rain</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/Carrot.jpg">
+                                <p>Her</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Photos</h3>
+                            <a href="#">See all photos</a>
+                        </div>
+
+                        <div class="photo box">
+                            <img src="Project 1-img/coffee-post.jpg">
+                            <img src="Project 1-img/sea.jpg">
+                            <img src="Project 1-img/peach.jpg">
+                            <img src="Project 1-img/blossom.jpg">
+                            <img src="Project 1-img/anime.png">
+                            <img src="Project 1-img/HCMUT 6-2-2020.jpg">
+                        </div>
+                    </div>
+
+                    <div class="profile-intro">
+                        <div class="title-box">
+                            <h3>Friends</h3>
+                            <a href="#">See all friends</a>
+                        </div>
+                        <p class="fr-no">77 Friends</p>
+
+                        <div class="friend box">
+                            <div>
+                                <img src="Project 1-img/aranakula.png">
+                                <p>Aranakula</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/arakunti.png">
+                                <p>Aranakunti</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/arakara.png">
+                                <p>Arakara</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/aralila.png">
+                                <p>Aralila</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/arachanda.png">
+                                <p>Arachanda</p>
+                            </div>
+                            <div>
+                                <img src="Project 1-img/arasaka.png">
+                                <p>Arasaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-col">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <a href="Profile FB-Project 1.html">
+                                <img src="Project 1-img/profile-pic.jpg">
+                            </a>
+                            <div>
+                                <p>Aurora RB</p>
+                                <small>Public
+                                    <i class='bx bxs-down-arrow'></i>
+                                </small>
+                            </div>
+                        </div>
+    
+                        <div class="post-input-container">
+                            <input type="text" placeholder="What's on your mind, Aurora?"></input>
+                        </div>
+                        
+                        <div class="add-post-links">
+                            <a href="https://www.youtube.com/watch?v=VsfLWgM6I98&ab_channel=Chang" target="_blank">
+                                <img src="Project 1-img/youtube.png">
+                                Video
+                            </a>
+                            <a href="#">
+                                <img src="Project 1-img/picture.png">
+                                Photo
+                            </a>
+                            <a href="#">
+                                <img src="Project 1-img/happy-face.png">
+                                Feeling/Activity
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="user-profile">
+                            <a href="Profile FB-Project 1.html">
+                                <img src="Project 1-img/profile-pic.jpg">
+                            </a>
+                            <div>
+                                <p>Aurora RB</p>
+                                <span>May 30 2024, 20:55 pm</span>
+                            </div>
+                        </div>
+    
+                        <p class="post-text">
+                            "Rất muốn được bên em<br>
+                            Muốn là người chở che em từng ngày<br>
+                            Muốn cùng người đến nơi chỉ còn hai chúng ta<br>
+                            <br>
+                            Chạy theo em giữa nhân gian quá cô đơn<br>
+                            Chỉ tôi cố chấp đơn phương."
+                        </p>
+    
+                        <img class="post-img" src="Project 1-img/memory.jpg">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <img src="Project 1-img/like-blue.png">
+                                <p>Like</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/chat-gradient.png">
+                                    <p>Comment</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/share.png">
+                                    <p>Share</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/clover.png">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post-container">
+                        <div class="user-profile">
+                            <a href="Profile FB-Project 1.html">
+                                <img src="Project 1-img/profile-pic.jpg">
+                            </a>
+                            <div>
+                                <p>Aurora RB</p>
+                                <span>May 13 2024, 16:30 pm</span>
+                            </div>
+                        </div>
+    
+                        <p class="post-text">
+                            I work to buy coffee<br>
+                            I buy coffee so I can work<br>
+                            It's the circle of life.
+                        </p>
+    
+                        <img class="post-img" src="Project 1-img/coffee-post.jpg">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <img src="Project 1-img/like-blue.png">
+                                <p>Like</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/chat-gradient.png">
+                                    <p>Comment</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/share.png">
+                                    <p>Share</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/clover.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="user-profile">
+                            <a href="Profile FB-Project 1.html">
+                                <img src="Project 1-img/profile-pic.jpg">
+                            </a>
+                            <div>
+                                <p>Aurora RB</p>
+                                <span>May 12 2024, 11:25 pm</span>
+                            </div>
+                        </div>
+    
+                        <p class="post-text">
+                            "Tôi mặc sức trong sâu thẳm trái tim mình<br>
+                            Giống như mùa lại mùa sang<br>
+                            Dựng lên một rừng cây trên mặt đất<br>
+                            Tôi làm vỡ em rồi lại ghép lại." - Jules Supervielle
+                        </p>
+    
+                        <img class="post-img" src="Project 1-img/post.jpg">
+    
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <img src="Project 1-img/like-blue.png">
+                                <p>Like</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/chat-gradient.png">
+                                <p>Comment</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/share.png">
+                                <p>Share</p>
+                            </div>
+                            <div class="activity-icons">
+                                <img src="Project 1-img/clover.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2024 - Aurora</p>
+        </div>
+
+        <script src="Project 1-JS.js"></script>
+    </body>
+</html>
