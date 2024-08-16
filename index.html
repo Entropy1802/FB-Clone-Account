@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="icon" href="img/clover.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <div class="logo">
+          <a href="index.html">
+            <div class="logo-block">
+              <img src="Project 1-img/letter-a.png" />
+              <p>urora</p>
+            </div>
+          </a>
+        </div>
+        <div class="left-icon">
+          <i class="bx bx-bell"></i>
+          <i class="bx bx-envelope"></i>
+          <i class="bx bxs-videos"></i>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="Project 1-img/profile-pic.jpg" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="menu-inner">
+          <div class="user-profile sett">
+            <a href="Profile FB-Project 1.html">
+              <img src="Project 1-img/profile-pic.jpg" />
+            </a>
+            <div>
+              <p>Aurora RB</p>
+              <a href="Profile FB-Project 1.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="setting-links">
+            <img class="setting-icons" src="Project 1-img/setting.png" />
+            <a href="#"
+              >Settings & Privacy
+              <img src="Project 1-img/next.png" width="20px" />
+            </a>
+          </div>
+
+          <div class="setting-links">
+            <img class="setting-icons" src="Project 1-img/information.png" />
+            <a href="#"
+              >Help & Support
+              <img src="Project 1-img/next.png" width="20px" />
+            </a>
+          </div>
+
+          <div class="setting-links">
+            <img class="setting-icons" src="Project 1-img/moon.png" />
+            <a href="#"
+              >Display & Accessability
+              <img src="Project 1-img/next.png" width="20px" />
+            </a>
+          </div>
+
+          <div class="setting-links">
+            <img class="setting-icons" src="Project 1-img/comment.png" />
+            <a href="#">Give feedback</a>
+          </div>
+
+          <div class="setting-links">
+            <img class="setting-icons" src="Project 1-img/logout.png" />
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#">
+            <i class="bx bx-news"></i>
+            Latest News
+          </a>
+
+          <a href="#">
+            <i class="ri-group-line"></i>
+            Friends
+          </a>
+
+          <a href="#">
+            <i class="ri-team-line"></i>
+            Group
+          </a>
+
+          <a href="#">
+            <i class="bx bx-cart"></i>
+            Marketplace
+          </a>
+
+          <a href="#">
+            <i class="bx bx-movie-play"></i>
+            Watch
+          </a>
+
+          <a href="Project 1-Note.html" target="_blank">See More</a>
+          <hr />
+        </div>
+
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+
+          <a href="#">
+            <img src="Project 1-img/shortcut-1.jpg" />
+            Web Development
+          </a>
+
+          <a href="#">
+            <img src="Project 1-img/shortcut-2.jpg" />
+            Natural Environment
+          </a>
+
+          <a href="#">
+            <img src="Project 1-img/shortcut-3.jpg" />
+            Future Developement
+          </a>
+
+          <a href="#">
+            <img src="Project 1-img/shortcut-4.png" />
+            Entertainment
+          </a>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story-1">
+            <img src="Project 1-img/add-likes.png" />
+            <p>Aurora's Story</p>
+          </div>
+
+          <div class="story story-2">
+            <img src="Project 1-img/arakara.png" />
+            <p>Arakara</p>
+          </div>
+
+          <div class="story story-3">
+            <img src="Project 1-img/aranakula.png" />
+            <p>Aranakula</p>
+          </div>
+
+          <div class="story story-4">
+            <img src="Project 1-img/arachanda.png" />
+            <p>Arachanda</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <a href="Profile FB-Project 1.html">
+              <img src="Project 1-img/profile-pic.jpg" />
+            </a>
+            <div>
+              <p>Aurora RB</p>
+              <small
+                >Public
+                <i class="bx bxs-down-arrow"></i>
+              </small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <input type="text" placeholder="What's on your mind, Aurora?" />
+          </div>
+
+          <div class="add-post-links">
+            <a href="https://www.youtube.com/watch?v=vBrSQt_1jHo" target="_blank">
+              <img src="Project 1-img/youtube.png" />
+              Video
+            </a>
+            <a href="#">
+              <img src="Project 1-img/picture.png" />
+              Photo
+            </a>
+            <a href="#">
+              <img src="Project 1-img/happy-face.png" />
+              Feeling/Activity
+            </a>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="user-profile">
+            <a href="Profile FB-Project 1.html">
+              <img src="Project 1-img/profile-pic.jpg" />
+            </a>
+            <div>
+              <p>Aurora RB</p>
+              <span>May 13 2024, 16:30 pm</span>
+            </div>
+          </div>
+
+          <p class="post-text">
+            I work to buy coffee<br />
+            I buy coffee so I can work<br />
+            It's the circle of life.
+          </p>
+
+          <img class="post-img" src="Project 1-img/coffee-post.jpg" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <img src="Project 1-img/like-blue.png" />
+              <p>Like</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/chat-gradient.png" />
+              <p>Comment</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/share.png" />
+              <p>Share</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/clover.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="user-profile">
+            <a href="Profile FB-Project 1.html">
+              <img src="Project 1-img/profile-pic.jpg" />
+            </a>
+            <div>
+              <p>Aurora RB</p>
+              <span>May 12 2024, 11:25 pm</span>
+            </div>
+          </div>
+
+          <p class="post-text">
+            " Tôi mặc sức trong sâu thẳm trái tim mình<br />
+            Giống như mùa lại mùa sang<br />
+            Dựng lên một rừng cây trên mặt đất<br />
+            Tôi làm vỡ em rồi lại ghép lại." - Jules Supervielle
+          </p>
+
+          <img class="post-img" src="Project 1-img/post.jpg" />
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <img src="Project 1-img/like-blue.png" />
+              <p>Like</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/chat-gradient.png" />
+              <p>Comment</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/share.png" />
+              <p>Share</p>
+            </div>
+            <div class="activity-icons">
+              <img src="Project 1-img/clover.png" />
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+      </div>
+
+      <div class="right-sidebar">
+        <div class="sidebar-title eve">
+          <h4>Events</h4>
+          <a href="#">See Alls</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>7</h3>
+            <span>July</span>
+          </div>
+
+          <div class="right-event">
+            <h4>Her Birthday</h4>
+            <div class="birthday">
+              <i class="ri-cake-2-fill"></i>
+              Red Moon
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>30</h3>
+            <span>January</span>
+          </div>
+
+          <div class="right-event">
+            <h4>My Birthday</h4>
+            <div class="birthday">
+              <i class="ri-cake-2-fill"></i>
+              Aurora
+            </div>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title act">
+          <h4>Activities</h4>
+          <a href="#">Close</a>
+        </div>
+        <img class="sidebar-act" src="Project 1-img/cake.jpg" />
+
+        <div class="sidebar-title con">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="Project 1-img/arachanda.png" />
+          </div>
+          <p>Aranachanda</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Project 1-img/arakara.png" />
+          </div>
+          <p>Arakara</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Project 1-img/arakunti.png" />
+          </div>
+          <p>Arakunti</p>
+        </div>
+        <div class="online-list">
+          <div class="online offline">
+            <img src="Project 1-img/aralila.png" />
+          </div>
+          <p>Aralila</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Project 1-img/aranakula.png" />
+          </div>
+          <p>Aranakula</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Project 1-img/arapacati.png" />
+          </div>
+          <p>Arapacati</p>
+        </div>
+        <div class="online-list">
+          <div class="online offline">
+            <img src="Project 1-img/araphala.png" />
+          </div>
+          <p>Araphala</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2024 - Aurora</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
