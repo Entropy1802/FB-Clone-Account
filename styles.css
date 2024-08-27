@@ -16,10 +16,10 @@
 }
 
 .dark-theme {
-  --body-color: #8e8e8e;
+  --body-color: #252525;
   --nav-bg: linear-gradient(312deg, rgba(98, 98, 98, 1) 0%, rgba(80, 80, 80, 1) 30%, rgba(42, 42, 42, 1) 100%);
   --background-color: #424242;
-  --text-color: rgb(40, 26, 26);
+  --text-color: rgb(230, 230, 230);
   --setting-menu: #e1e1e1;
   --setting-text: #000;
   --hover-text: #000;
