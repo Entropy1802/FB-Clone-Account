@@ -54,34 +54,29 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-image: var(--nav-bg);
-  padding: 5px 5%;
+  padding: 10px 5%;
   position: sticky;
   top: 0;
   z-index: 100;
 }
-.nav-left .logo {
+.title {
+  margin-right: 30px;
+}
+.title a {
   display: flex;
   align-items: center;
-  margin-right: 25px;
+  column-gap: 10px;
+  font-family: "Doppio One";
+  font-size: 35px;
+  color: #fff;
 }
-.logo .logo-block img {
-  width: 60px;
-}
-.logo .logo-block p {
-  color: white;
-  font-family: "Poetsen One";
-  font-size: 27px;
-  position: relative;
-  left: -7px;
-}
-.logo-block {
-  display: flex;
-  align-items: center;
-  margin-right: 25px;
+.title a i {
+  font-size: 28px;
 }
 .nav-left .left-icon i {
   font-size: 30px;
   color: white;
+  cursor: pointer;
 }
 .nav-left,
 .left-icon,
@@ -112,7 +107,7 @@ nav {
   font-size: 16px;
 }
 .nav-right .nav-user-icon img {
-  width: 55px;
+  width: 45px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -282,11 +277,12 @@ a {
   align-items: center;
   margin-bottom: 30px;
   font-size: 17px;
+  line-height: 28px;
   column-gap: 25px;
 }
 .left-sidebar .shortcut-links img {
   width: 70px;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /*--------------- CONTAINER-RIGHT SIDEBAR ---------------*/
