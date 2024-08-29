@@ -73,18 +73,18 @@ nav {
 .title a i {
   font-size: 28px;
 }
-.nav-left .left-icon i {
+.nav-left .center-icon i {
   font-size: 30px;
   color: white;
   cursor: pointer;
 }
 .nav-left,
-.left-icon,
+.center-icon,
 .nav-right {
   display: flex;
   align-items: center;
 }
-.nav-left .left-icon {
+.nav-left .center-icon {
   column-gap: 30px;
 }
 .nav-right .search-box {
@@ -786,10 +786,10 @@ p.fr-no {
   .logo-block {
     margin-right: 5px;
   }
-  .nav-left .left-icon i {
+  .nav-left .center-icon i {
     font-size: 24px;
   }
-  .nav-left .left-icon {
+  .nav-left .center-icon {
     column-gap: 15px;
   }
   .nav-right .search-box {
