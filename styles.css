@@ -73,10 +73,18 @@ nav {
 .title a i {
   font-size: 28px;
 }
-.nav-left .center-icon i {
-  font-size: 30px;
-  color: white;
+.center-icon div {
+  padding: 8px 18px;
   cursor: pointer;
+}
+.center-icon div:hover {
+  border: 2px solid salmon;
+  border-radius: 8px;
+  background-color: #c7c7c7;
+}
+.nav-left .center-icon i {
+  font-size: 25px;
+  color: white;
 }
 .nav-left,
 .center-icon,
@@ -86,10 +94,11 @@ nav {
 }
 .nav-left .center-icon {
   column-gap: 30px;
+  margin-left: 50%;
 }
 .nav-right .search-box {
   background: #f1f0f0;
-  width: 350px;
+  width: 300px;
   border-radius: 20px;
   display: flex;
   align-items: center;
