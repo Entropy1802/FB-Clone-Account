@@ -73,28 +73,28 @@ nav {
 .title a i {
   font-size: 28px;
 }
-.center-icon div {
+.nav-center div {
   padding: 8px 18px;
   cursor: pointer;
 }
-.center-icon div:hover {
-  border: 2px solid salmon;
+.nav-center div:hover {
   border-radius: 8px;
-  background-color: #c7c7c7;
+  background-color: #c7c7c773;
 }
-.nav-left .center-icon i {
+.nav-left .nav-center i {
   font-size: 25px;
   color: white;
 }
 .nav-left,
-.center-icon,
+.nav-center,
 .nav-right {
   display: flex;
   align-items: center;
 }
-.nav-left .center-icon {
+.nav-left .nav-center {
   column-gap: 30px;
   margin-left: 50%;
+  position: relative;
 }
 .nav-right .search-box {
   background: #f1f0f0;
@@ -795,10 +795,10 @@ p.fr-no {
   .logo-block {
     margin-right: 5px;
   }
-  .nav-left .center-icon i {
+  .nav-left .nav-center i {
     font-size: 24px;
   }
-  .nav-left .center-icon {
+  .nav-left .nav-center {
     column-gap: 15px;
   }
   .nav-right .search-box {
