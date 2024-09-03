@@ -75,7 +75,7 @@ nav {
 }
 .nav-center {
   position: relative;
-  margin-left: 30%;
+  margin-left: 40%;
   column-gap: 30px;
   border: 2px solid white;
 }
@@ -92,15 +92,27 @@ nav {
   background-color: #c7c7c773;
 }
 .center-icon span {
-  color: #fff;
   position: absolute;
   top: 40px;
   z-index: 1;
   visibility: hidden;
 }
+span.icon-1 {
+  left: 0;
+}
+span.icon-2 {
+  left: 90px;
+}
+span.icon-3 {
+  left: 172px;
+}
 .center-icon:hover.center-icon span {
   visibility: visible;
   opacity: 1;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 5px 12px;
+  background: #757575;
 }
 .nav-left,
 .nav-center,
