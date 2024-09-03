@@ -73,28 +73,40 @@ nav {
 .title a i {
   font-size: 28px;
 }
-.nav-center div {
+.nav-center {
+  position: relative;
+  margin-left: 30%;
+  column-gap: 30px;
+  border: 2px solid white;
+}
+.center-icon {
   padding: 8px 18px;
   cursor: pointer;
 }
-.nav-center div:hover {
+.center-icon i {
+  font-size: 25px;
+  color: white;
+}
+.center-icon:hover {
   border-radius: 8px;
   background-color: #c7c7c773;
 }
-.nav-left .nav-center i {
-  font-size: 25px;
-  color: white;
+.center-icon span {
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+  visibility: hidden;
+}
+.center-icon:hover.center-icon span {
+  visibility: visible;
+  opacity: 1;
 }
 .nav-left,
 .nav-center,
 .nav-right {
   display: flex;
   align-items: center;
-}
-.nav-left .nav-center {
-  column-gap: 30px;
-  margin-left: 50%;
-  position: relative;
 }
 .nav-right .search-box {
   background: #f1f0f0;
