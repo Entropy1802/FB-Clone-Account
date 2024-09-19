@@ -293,7 +293,7 @@ a {
 }
 .left-sidebar .imp-links i {
   font-size: 30px;
-  color: rgb(27, 92, 92);
+  color: #fff;
 }
 .left-sidebar .imp-links a:last-child {
   color: var(--small-a-color);
